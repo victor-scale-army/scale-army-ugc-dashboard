@@ -1,0 +1,205 @@
+{
+  "sql_definition": "sql == 'Yes' on the MB/MH tabs, anchored to the 'Date entered \"Meeting Scheduled (Placements \u2014 MRR Inbound Sales)\"' date.",
+  "ugc_definition": "utm_content (HubSpot) or ad_name (Meta) contains the substring 'ugc', case-insensitive.",
+  "months": [
+    {
+      "month": "2025-09",
+      "total_sql": 1,
+      "ugc_sql": 0,
+      "non_ugc_sql": 1,
+      "pct_sql_from_ugc": 0.0,
+      "creatives": [],
+      "total_spend": 28770.4,
+      "ugc_spend": 0,
+      "non_ugc_spend": 28770.4,
+      "pct_spend_ugc": 0.0,
+      "cost_per_sql_ugc": null,
+      "cost_per_sql_non_ugc": 28770.4,
+      "cost_per_sql_blended": 28770.4,
+      "spend_sql_gap_pct": 0.0
+    },
+    {
+      "month": "2025-10",
+      "total_sql": 36,
+      "ugc_sql": 0,
+      "non_ugc_sql": 36,
+      "pct_sql_from_ugc": 0.0,
+      "creatives": [],
+      "total_spend": 42717.48,
+      "ugc_spend": 0,
+      "non_ugc_spend": 42717.48,
+      "pct_spend_ugc": 0.0,
+      "cost_per_sql_ugc": null,
+      "cost_per_sql_non_ugc": 1186.6,
+      "cost_per_sql_blended": 1186.6,
+      "spend_sql_gap_pct": 0.0
+    },
+    {
+      "month": "2025-11",
+      "total_sql": 49,
+      "ugc_sql": 0,
+      "non_ugc_sql": 49,
+      "pct_sql_from_ugc": 0.0,
+      "creatives": [],
+      "total_spend": 40777.02,
+      "ugc_spend": 0,
+      "non_ugc_spend": 40777.02,
+      "pct_spend_ugc": 0.0,
+      "cost_per_sql_ugc": null,
+      "cost_per_sql_non_ugc": 832.18,
+      "cost_per_sql_blended": 832.18,
+      "spend_sql_gap_pct": 0.0
+    },
+    {
+      "month": "2025-12",
+      "total_sql": 45,
+      "ugc_sql": 0,
+      "non_ugc_sql": 45,
+      "pct_sql_from_ugc": 0.0,
+      "creatives": [],
+      "total_spend": 31176.1,
+      "ugc_spend": 0,
+      "non_ugc_spend": 31176.1,
+      "pct_spend_ugc": 0.0,
+      "cost_per_sql_ugc": null,
+      "cost_per_sql_non_ugc": 692.8,
+      "cost_per_sql_blended": 692.8,
+      "spend_sql_gap_pct": 0.0
+    },
+    {
+      "month": "2026-01",
+      "total_sql": 41,
+      "ugc_sql": 0,
+      "non_ugc_sql": 41,
+      "pct_sql_from_ugc": 0.0,
+      "creatives": [],
+      "total_spend": 58111.17,
+      "ugc_spend": 0,
+      "non_ugc_spend": 58111.17,
+      "pct_spend_ugc": 0.0,
+      "cost_per_sql_ugc": null,
+      "cost_per_sql_non_ugc": 1417.35,
+      "cost_per_sql_blended": 1417.35,
+      "spend_sql_gap_pct": 0.0
+    },
+    {
+      "month": "2026-02",
+      "total_sql": 44,
+      "ugc_sql": 0,
+      "non_ugc_sql": 44,
+      "pct_sql_from_ugc": 0.0,
+      "creatives": [],
+      "total_spend": 52812.15,
+      "ugc_spend": 0,
+      "non_ugc_spend": 52812.15,
+      "pct_spend_ugc": 0.0,
+      "cost_per_sql_ugc": null,
+      "cost_per_sql_non_ugc": 1200.28,
+      "cost_per_sql_blended": 1200.28,
+      "spend_sql_gap_pct": 0.0
+    },
+    {
+      "month": "2026-03",
+      "total_sql": 28,
+      "ugc_sql": 0,
+      "non_ugc_sql": 28,
+      "pct_sql_from_ugc": 0.0,
+      "creatives": [],
+      "total_spend": 58736.26,
+      "ugc_spend": 2071.82,
+      "non_ugc_spend": 56664.44,
+      "pct_spend_ugc": 3.5,
+      "cost_per_sql_ugc": null,
+      "cost_per_sql_non_ugc": 2023.73,
+      "cost_per_sql_blended": 2097.72,
+      "spend_sql_gap_pct": -3.5
+    },
+    {
+      "month": "2026-04",
+      "total_sql": 27,
+      "ugc_sql": 0,
+      "non_ugc_sql": 27,
+      "pct_sql_from_ugc": 0.0,
+      "creatives": [],
+      "total_spend": 63002.11,
+      "ugc_spend": 69.06,
+      "non_ugc_spend": 62933.05,
+      "pct_spend_ugc": 0.1,
+      "cost_per_sql_ugc": null,
+      "cost_per_sql_non_ugc": 2330.85,
+      "cost_per_sql_blended": 2333.41,
+      "spend_sql_gap_pct": -0.1
+    },
+    {
+      "month": "2026-05",
+      "total_sql": 57,
+      "ugc_sql": 3,
+      "non_ugc_sql": 54,
+      "pct_sql_from_ugc": 5.3,
+      "creatives": [
+        {
+          "ad_name": "AD174_VID_UGC_SMM_Nothing_actually_drove_pipeline",
+          "sql": 2
+        },
+        {
+          "ad_name": "AD173_VID_UGC_AIMS_Honest_advice",
+          "sql": 1
+        }
+      ],
+      "total_spend": 80293.84,
+      "ugc_spend": 20932.63,
+      "non_ugc_spend": 59361.21,
+      "pct_spend_ugc": 26.1,
+      "cost_per_sql_ugc": 6977.54,
+      "cost_per_sql_non_ugc": 1099.28,
+      "cost_per_sql_blended": 1408.66,
+      "spend_sql_gap_pct": -20.8
+    },
+    {
+      "month": "2026-06",
+      "total_sql": 39,
+      "ugc_sql": 9,
+      "non_ugc_sql": 30,
+      "pct_sql_from_ugc": 23.1,
+      "creatives": [
+        {
+          "ad_name": "AD174_VID_UGC_SMM_Nothing_actually_drove_pipeline",
+          "sql": 8
+        },
+        {
+          "ad_name": "AD201_VID_UGC_Founder_I_Know_fired_her_SMM_last_month",
+          "sql": 1
+        }
+      ],
+      "total_spend": 84981.07,
+      "ugc_spend": 31774.4,
+      "non_ugc_spend": 53206.67,
+      "pct_spend_ugc": 37.4,
+      "cost_per_sql_ugc": 3530.49,
+      "cost_per_sql_non_ugc": 1773.56,
+      "cost_per_sql_blended": 2179.0,
+      "spend_sql_gap_pct": -14.3
+    },
+    {
+      "month": "2026-07",
+      "total_sql": 0,
+      "ugc_sql": 0,
+      "non_ugc_sql": 0,
+      "pct_sql_from_ugc": null,
+      "creatives": [],
+      "total_spend": 991.29,
+      "ugc_spend": 445.79,
+      "non_ugc_spend": 545.5,
+      "pct_spend_ugc": 45.0,
+      "cost_per_sql_ugc": null,
+      "cost_per_sql_non_ugc": null,
+      "cost_per_sql_blended": null,
+      "spend_sql_gap_pct": null
+    }
+  ],
+  "generated_at": "2026-07-01T18:37:46Z",
+  "range": {
+    "start": "2025-09",
+    "end": "2026-07"
+  }
+}

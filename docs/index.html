@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>UGC Creative Performance — Scale Army</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <span class="brand-mark">scalearmy</span>
+        <span class="brand-sub">UGC Creative Performance</span>
+      </div>
+      <div class="range-picker">
+        <label for="month-select">Month</label>
+        <select id="month-select"></select>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="cards" id="overview-cards"></section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Spend-share vs. SQL-share gap over time</h2>
+        <p class="panel-sub">Positive = UGC punches above its budget weight. Negative = UGC costs more of the budget than it returns in SQLs.</p>
+      </div>
+      <canvas id="gap-chart" height="90"></canvas>
+    </section>
+
+    <div class="grid-2">
+      <section class="panel">
+        <div class="panel-head">
+          <h2>SQLs by UGC creative</h2>
+          <p class="panel-sub" id="creatives-sub"></p>
+        </div>
+        <table class="data-table" id="creatives-table">
+          <thead><tr><th>Creative (ad name)</th><th class="num">SQLs</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Spend allocation</h2>
+          <p class="panel-sub">Total vs. UGC spend, this month</p>
+        </div>
+        <table class="data-table" id="spend-table">
+          <thead><tr><th></th><th class="num">Spend</th><th class="num">% of Total</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </section>
+    </div>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Cost per SQL</h2>
+        <p class="panel-sub">UGC vs. non-UGC vs. blended, this month</p>
+      </div>
+      <table class="data-table" id="cpsql-table">
+        <thead><tr><th>Segment</th><th class="num">SQLs</th><th class="num">Spend</th><th class="num">Cost / SQL</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <footer class="footnote">
+      <p id="definitions"></p>
+      <p id="generated-at"></p>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
