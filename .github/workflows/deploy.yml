@@ -17,6 +17,13 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  # UGC creatives only started running in May 2026, so the report is scoped to
+  # May–June for now. Widen this (or remove it to default to full history)
+  # once more months of UGC data exist.
+  REPORT_START: "2026-05"
+  REPORT_END: "2026-06"
+
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -44,7 +51,7 @@ jobs:
           META_ACCOUNT_IDS: ${{ secrets.META_ACCOUNT_IDS }}
         run: |
           mkdir -p data
-          python -m pipeline.main --output data/monthly_analysis.json
+          python -m pipeline.main --start "$REPORT_START" --end "$REPORT_END" --output data/monthly_analysis.json
           cp data/monthly_analysis.json docs/data/monthly_analysis.json
 
       - name: Upload Pages artifact
